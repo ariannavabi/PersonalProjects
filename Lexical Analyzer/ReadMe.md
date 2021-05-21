@@ -3,7 +3,7 @@
 ## About
 This project was an excersice for the "Compiler Design" class in university.
 The app gets an input written code from the user, & then analyzes every character to find a valid code based on it's grammar. It can recognize IDs, operators, int numbers, float numbers & blank spaces. The code will also recognize errors, any unvalid text that does not fit in any of the grammars declared, will be considered as an error.
-The output of this code will be the colored (Suntax Highlighting) code (just like modern IDEs) & a report that contains the count of every recognized grammar & the errors found.
+The output of this code will be the colored (Sintax Highlighting) code (just like modern IDEs) & a report that contains the count of every recognized grammar & the errors found.
 
 ## Download Links:
 **Click [here](https://github.com/ariannavabi/PersonalProjects/raw/main/Lexical%20Analyzer/LexicalAnalyzer1.0.zip) to download the app.**
