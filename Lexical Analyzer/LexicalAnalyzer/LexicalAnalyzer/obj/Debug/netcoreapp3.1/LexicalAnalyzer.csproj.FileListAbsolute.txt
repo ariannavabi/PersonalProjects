@@ -13,3 +13,18 @@ C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp
 C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.dll
 C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.pdb
 C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.genruntimeconfig.cache
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\netcoreapp3.1\LexicalAnalyzer.exe
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\netcoreapp3.1\LexicalAnalyzer.deps.json
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\netcoreapp3.1\LexicalAnalyzer.runtimeconfig.json
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\netcoreapp3.1\LexicalAnalyzer.runtimeconfig.dev.json
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\netcoreapp3.1\LexicalAnalyzer.dll
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\bin\Debug\netcoreapp3.1\LexicalAnalyzer.pdb
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.csprojAssemblyReference.cache
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.Form1.resources
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.csproj.GenerateResource.cache
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.AssemblyInfoInputs.cache
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.AssemblyInfo.cs
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.csproj.CoreCompileInputs.cache
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.dll
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.pdb
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Debug\netcoreapp3.1\LexicalAnalyzer.genruntimeconfig.cache

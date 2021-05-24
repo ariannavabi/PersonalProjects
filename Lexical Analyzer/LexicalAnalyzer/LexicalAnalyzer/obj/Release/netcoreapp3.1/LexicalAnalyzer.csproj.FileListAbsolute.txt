@@ -19,7 +19,6 @@ D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\Le
 D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.runtimeconfig.dev.json
 D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.dll
 D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.pdb
-D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.csprojAssemblyReference.cache
 D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.Form1.resources
 D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.csproj.GenerateResource.cache
 D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.AssemblyInfoInputs.cache
@@ -28,3 +27,4 @@ D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\Le
 D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.dll
 D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.pdb
 D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.genruntimeconfig.cache
+D:\Programs and Codes\Personal\GitHub Clones\Lexical Analyzer\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.csprojAssemblyReference.cache

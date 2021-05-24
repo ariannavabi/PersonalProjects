@@ -204,7 +204,6 @@ namespace LexicalAnalyzer
             this.richTextBox_Input.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(47)))), ((int)(((byte)(65)))));
             this.richTextBox_Input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.richTextBox_Input.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.richTextBox_Input.ForeColor = System.Drawing.Color.White;
             this.richTextBox_Input.Location = new System.Drawing.Point(600, 27);
             this.richTextBox_Input.Name = "richTextBox_Input";
             this.richTextBox_Input.ReadOnly = true;

@@ -41,6 +41,7 @@ namespace LexicalAnalyzer
 
             // Process The Code:
             int blankCount = 0;
+            int commentCount = 0;
             int operatorCount = 0;
             int idCount = 0;
             int floatCount = 0;
@@ -57,6 +58,7 @@ namespace LexicalAnalyzer
                 // the functions will return the count of found grammars
                 // & will also mark detected grammars as true, in the error checklist:
 
+                commentCount += Convert.ToInt32(FindComments(inputCode[i], errorChecklist, i));
                 blankCount += CountBlankSpaces(inputCode[i], errorChecklist, i);
                 operatorCount += CountOperators(inputCode[i], errorChecklist, i);
                 idCount += CountIDs(inputCode[i], errorChecklist, i);
@@ -69,6 +71,7 @@ namespace LexicalAnalyzer
 
             // Print The result:
             string outputText = "";
+            outputText += "\r\nComments:\t\t" + commentCount.ToString();
             outputText += "\r\nBlank Characters:\t" + blankCount.ToString();
             outputText += "\r\nOperator Characters:\t" + operatorCount.ToString();
             outputText += "\r\nID Words:\t\t" + idCount.ToString();
@@ -94,6 +97,56 @@ namespace LexicalAnalyzer
 
 
         /// <summary>
+        /// This finds comments (//...) in the line. 
+        /// </summary>
+        /// <param name="inputLine">String of code that may include comments.</param>
+        /// <returns>True if a comment is found & false if is isn't.</returns>
+        bool FindComments(string inputLine, bool[] errorChecklist, int lineIndex)
+        {
+            char[] inputChars = inputLine.ToCharArray();
+            bool isFirstSlashFound = false;
+            bool isSecondSlashFound = false;
+            int firstSlashIndex = 0;
+
+            for (int i = 0; i < inputChars.Length; i++)
+            {
+                if (inputChars[i] == '/')
+                {
+                    if (isFirstSlashFound == false)
+                    {
+                        isFirstSlashFound = true;
+                        firstSlashIndex = i;
+                    }
+                    else // A comment is found;
+                    {
+                        isSecondSlashFound = true;
+                        break;
+                    }
+                }
+                else
+                {
+                    if (isSecondSlashFound == false)
+                    {
+                        isFirstSlashFound = false;
+                    }
+                }                
+            }
+
+            if (isSecondSlashFound)
+            {
+                for (int i = firstSlashIndex; i < inputChars.Length; i++)
+                {
+                    errorChecklist[i] = true;
+                    HighlightText(i, lineIndex, commentColor);
+                }
+            }
+
+            return isSecondSlashFound;
+        }
+
+
+
+        /// <summary>
         /// This function counts the blank characters (spaces or tabs) in a given string.
         /// </summary>
         /// <param name="inputLine">String of code that may include blank spaces.</param>
@@ -105,11 +158,14 @@ namespace LexicalAnalyzer
 
             for (int i = 0; i < inputChars.Length; i++)
             {
-                if (inputChars[i] == ' ' || inputChars[i] == '\t')
+                if (errorChecklist[i] == false) // This condidtion prevents declared characters to be re-Analyzed
                 {
-                    blanksCount++;
-                    errorChecklist[i] = true;
-                    HighlightText(i, lineIndex, blankColor);
+                    if (inputChars[i] == ' ' || inputChars[i] == '\t')
+                    {
+                        blanksCount++;
+                        errorChecklist[i] = true;
+                        HighlightText(i, lineIndex, blankColor);
+                    }
                 }
             }
             return blanksCount;
@@ -130,13 +186,16 @@ namespace LexicalAnalyzer
 
             for (int i = 0; i < inputChars.Length; i++) // Loops on input code
             {
-                for (int j = 0; j < operatorDictionary.Length; j++) // Loops on dictionary
+                if (errorChecklist[i] == false) // This condidtion prevents declared characters to be re-Analyzed
                 {
-                    if (inputChars[i] == operatorDictionary[j])
+                    for (int j = 0; j < operatorDictionary.Length; j++) // Loops on dictionary
                     {
-                        operatorCount++;
-                        errorChecklist[i] = true;
-                        HighlightText(i, lineIndex, operatorColor);
+                        if (inputChars[i] == operatorDictionary[j])
+                        {
+                            operatorCount++;
+                            errorChecklist[i] = true;
+                            HighlightText(i, lineIndex, operatorColor);
+                        }
                     }
                 }
             }
@@ -164,14 +223,17 @@ namespace LexicalAnalyzer
                 // Check for the beggining of an ID:
                 for (int j = 0; j < idStartDictionary.Length; j++)
                 {
-                    if (inputCodeChars[i] == idStartDictionary[j])
+                    if (errorChecklist[i] == false) // This condidtion prevents declared characters to be re-Analyzed
                     {
-                        idCount++;
-                        isIdFound = true;
-                        errorChecklist[i] = true;
-                        HighlightText(i, lineIndex, idColor);
-                        i++;
-                        break;
+                        if (inputCodeChars[i] == idStartDictionary[j])
+                        {
+                            idCount++;
+                            isIdFound = true;
+                            errorChecklist[i] = true;
+                            HighlightText(i, lineIndex, idColor);
+                            i++;
+                            break;
+                        }
                     }
                 }
 
@@ -180,17 +242,25 @@ namespace LexicalAnalyzer
                 {
                     for (int j2 = 0; j2 < idMidDictionary.Length; j2++)
                     {
-                        if (inputCodeChars[i] == idMidDictionary[j2])
-                        {
-                            errorChecklist[i] = true;
-                            HighlightText(i, lineIndex, idColor);
-                            break;
-                        }
-                        if (j2 == idMidDictionary.Length - 1)
-                        {
-                            isIdFound = false;
-                            i--;
-                        }
+                        //if (errorChecklist[i] == false) // This condidtion prevents declared characters to be re-Analyzed
+                        //{
+                            if (inputCodeChars[i] == idMidDictionary[j2])
+                            {
+                                errorChecklist[i] = true;
+                                HighlightText(i, lineIndex, idColor);
+                                break;
+                            }
+                            if (j2 == idMidDictionary.Length - 1)
+                            {
+                                isIdFound = false;
+                                i--;
+                            }
+                        //}
+                        //else
+                        //{
+                        //    isIdFound = false;
+                        //    break;
+                        //}
                     }
                     i++;
                 }
@@ -528,7 +598,7 @@ namespace LexicalAnalyzer
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void Form1_Load(object sender, EventArgs e)
-        {
+        {            
             AnalyzeCode();
             textBox_Input.Focus();
             numericUpDown_FontSize_ValueChanged(null, null);
@@ -632,7 +702,8 @@ namespace LexicalAnalyzer
 
 
         // Determined Colors for the Syntax Highliting:
-        Color blankColor = Color.FromArgb(55, 60, 80);
+        Color commentColor = Color.DarkOliveGreen;
+        Color blankColor = Color.FromArgb(50, 55, 70);
         Color operatorColor = Color.RosyBrown;
         Color idColor =  Color.PowderBlue;
         Color floatColor = Color.DarkTurquoise;
@@ -688,15 +759,12 @@ namespace LexicalAnalyzer
             }
         }
 
-
-
-        #endregion UI Codes
-
         private void label_About_Click(object sender, EventArgs e)
         {
             toolTip_Main.Active = false;
             toolTip_Main.Active = true;
         }
+        #endregion UI Codes       
     }
 }
 
