@@ -1,0 +1,5 @@
+C:\Users\Arian\source\repos\LexicalAnalyzer1.0\LexicalAnalyzer.exe
+C:\Users\Arian\source\repos\LexicalAnalyzer1.0\LexicalAnalyzer.dll
+C:\Users\Arian\source\repos\LexicalAnalyzer1.0\LexicalAnalyzer.deps.json
+C:\Users\Arian\source\repos\LexicalAnalyzer1.0\LexicalAnalyzer.runtimeconfig.json
+C:\Users\Arian\source\repos\LexicalAnalyzer1.0\LexicalAnalyzer.pdb

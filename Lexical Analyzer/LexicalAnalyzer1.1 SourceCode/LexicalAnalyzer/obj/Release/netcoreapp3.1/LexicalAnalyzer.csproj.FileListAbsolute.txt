@@ -1,0 +1,30 @@
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.exe
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.deps.json
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.runtimeconfig.json
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.runtimeconfig.dev.json
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.dll
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.pdb
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.csprojAssemblyReference.cache
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.Form1.resources
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.csproj.GenerateResource.cache
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.AssemblyInfoInputs.cache
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.AssemblyInfo.cs
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.dll
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.pdb
+C:\Users\Arian\source\repos\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.genruntimeconfig.cache
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.exe
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.deps.json
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.runtimeconfig.json
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.runtimeconfig.dev.json
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.dll
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\bin\Release\netcoreapp3.1\LexicalAnalyzer.pdb
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.csprojAssemblyReference.cache
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.Form1.resources
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.csproj.GenerateResource.cache
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.AssemblyInfoInputs.cache
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.AssemblyInfo.cs
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.csproj.CoreCompileInputs.cache
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.dll
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.pdb
+D:\Programs and Codes\Personal\2021\5-Lexical Analayzer (For University)\LexicalAnalyzer\LexicalAnalyzer\obj\Release\netcoreapp3.1\LexicalAnalyzer.genruntimeconfig.cache
